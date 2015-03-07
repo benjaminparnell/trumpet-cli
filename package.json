@@ -1,0 +1,19 @@
+{
+  "name": "trump",
+  "version": "0.0.0",
+  "description": "",
+  "preferGlobal": "true",
+  "bin": {
+    "trump": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Parnell <me@benparnell.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "trumpet": "^1.7.0"
+  }
+}
