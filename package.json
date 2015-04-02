@@ -1,7 +1,7 @@
 {
   "name": "trump",
   "version": "0.1.0",
-  "description": "",
+  "description": "A very small command line interface to node-trumpet",
   "preferGlobal": "true",
   "bin": {
     "trump": "index.js"
@@ -9,7 +9,11 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard",
-    "prepublish": "npm run lint",
+    "prepublish": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/benjaminparnell/trump"
   },
   "author": "Benjamin Parnell <me@benparnell.com>",
   "license": "MIT",
